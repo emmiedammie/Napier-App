@@ -8,7 +8,7 @@ body{
 }
 
 #header {
-    position: fixed;
+    position:inherit;
     width: 100%;
     top: 0;
     left: 0;
@@ -80,7 +80,7 @@ img {
   .sidenav a {
     padding: 8px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #f1f1f1;
     display: block;
   }
@@ -89,5 +89,18 @@ img {
     color: #818181;
   }
   
+#chatbot {
+    height: 150px; 
+    font-size: 12pt;
+    margin: 8px;
+   
+}
+
+.form-label{
+    font-size: 12pt;
+    font-weight: bold;
+    margin-left: 10px;
+    color: rgb(182, 160, 160);
+}
 
   
