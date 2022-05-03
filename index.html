@@ -222,7 +222,53 @@
         </div>
         
         </div>
+        
     </div>   
+     <!-- CHAT BAR BLOCK -->
+     <div class="chat-bar-collapsible" id="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Virtual Assistant!
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartButton()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
     <div class="sidenav" id="sidenav">
         <a href="https://i.napier.ac.uk/campusm/home#menu">Home</a>
         <a href="https://express.adobe.com/page/auKCRr6TQqB6i/">Newsletter</a>
@@ -233,12 +279,13 @@
         <a href="https://mypassword.napier.ac.uk/">Reset Password</a>
         <a href="#contact">Programme Leader</a><br><br><br>
 
-        <div class="chatbot">
-            <label for="chatbot" class="form-label"><b>Napier Assistant</b></label>
-            <input type="text" class="form-control" name="chatbot" id="chatbot" placeholder="Ask me anything">
+        <div class="msgbrd" id="chatbot">
+            <label for="msgbrdheader" class="form-label"><b>Message board</b></label>
+            <p>The University is running the majority of Trimester 2 exams online, with a free Professional Accounting Exams being held at Craiglochart Campus....Read</p>
+
         </div>
     </div>
-
+   
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="responses.js"></script>
