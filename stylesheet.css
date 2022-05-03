@@ -87,13 +87,14 @@ img {
   }
   
 .sidenav a:hover {
-    color: #818181;
+    color: #b9b3b3;
   }
   
-.sidenav .chatbot{
+.sidenav .msgbrd{
     height: 150px; 
-    font-size: 8px;
+    font-size: 16px;
     margin: 8px;
+    color: rgb(196, 186, 186);
    
  
 }
@@ -101,16 +102,16 @@ img {
 .chat-bar-collapsible {
     position: fixed;
     bottom: 0;
-    right: 50px;
+    right: 5px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .collapsible {
-    background-color: rgb(82, 151, 255);
+    background-color: rgb(113, 153, 214);
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 350px;
+    width: 320px;
     text-align: left;
     outline: none;
     font-size: 18px;
